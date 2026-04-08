@@ -73,7 +73,7 @@ This gives us the best of both worlds: Bayesian uncertainty quantification AND c
 The easiest way to run this workshop — no installation required!
 
 1. **Download the notebook** from this repository:
-   - Click on `cmb_workshop_montecarlo.ipynb`
+   - Click on `cmb_mcmc_workshop.ipynb`
    - Click the "Download" button (or Raw → Save As)
 
 2. **Open Google Colab**:
@@ -97,8 +97,8 @@ If you prefer to run locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/UBCAstronomyClub/CMB_Isolation.git
+cd CMB_Isolation
 
 # Create a virtual environment (optional but recommended)
 python -m venv venv
@@ -108,7 +108,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install numpy matplotlib tqdm jupyter
 
 # Launch Jupyter
-jupyter notebook cmb_workshop_montecarlo.ipynb
+jupyter notebook cmb_mcmc_workshop.ipynb
 ```
 
 ---
@@ -117,10 +117,8 @@ jupyter notebook cmb_workshop_montecarlo.ipynb
 
 ```
 ├── README.md                        # This file
-├── cmb_workshop_montecarlo.ipynb    # Main workshop notebook (student version)
-├── cmb_workshop_solutions.ipynb     # Solutions notebook (instructor version)
-└── figures/                         # Example output figures
-    └── ...
+├── cmb_workshop_montecarlo.ipynb    # Main workshop notebook 
+└── cmb_workshop_solutions.ipynb     # Solutions notebook (added after the workshop)
 ```
 
 ---
