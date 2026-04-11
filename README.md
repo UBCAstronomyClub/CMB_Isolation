@@ -155,6 +155,9 @@ The MCMC sampler recovers the true parameter values with well-defined uncertaint
 - [Practical MCMC (Hogg & Foreman-Mackey)](https://arxiv.org/abs/1710.06068)
 - [emcee: The MCMC Hammer](https://emcee.readthedocs.io/)
 
+### Alternate Component Separation Methods for Isolating CMB
+- [LAMBDA](https://lambda.gsfc.nasa.gov/toolbox/comp_separation.html)
+
 ---
 
 ## License
